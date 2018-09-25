@@ -10,6 +10,8 @@ namespace SWD_1
     {
         static void Main(string[] args)
         {
+            BinaryTree TreeOfIDs = ReadID.ParseFile("input.txt");
+            Console.ReadKey();
         }
     }
 }
